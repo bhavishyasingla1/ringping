@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Ring Ping: Call Reminder">
+  <title>Privacy Policy | Ring Ping: Call Reminder</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
+
+    :root {
+      color-scheme: light;
+      --ink: #17262a;
+      --muted: #5c6872;
+      --line: #d9e1e5;
+      --paper: #ffffff;
+      --wash: #eef4f3;
+      --accent: #087f8c;
+      --accent-dark: #075c65;
+      --accent-soft: #dff3f1;
+      --max-width: 860px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--wash);
+      font-family: "Newsreader", Georgia, serif;
+      line-height: 1.7;
+    }
+
+    a { color: var(--accent-dark); }
+
+    .site-header {
+      position: relative;
+      overflow: hidden;
+      padding: 4.5rem 1.25rem 5.5rem;
+      color: #f8ffff;
+      background:
+        radial-gradient(circle at 85% 20%, rgba(120, 220, 211, .2), transparent 28%),
+        linear-gradient(135deg, #075c65, #0b7f87 55%, #135f77);
+    }
+
+    .site-header::after {
+      position: absolute;
+      right: 8%;
+      bottom: -9rem;
+      width: 23rem;
+      height: 23rem;
+      border: 1px solid rgba(216, 245, 241, .18);
+      border-radius: 50%;
+      box-shadow: 0 0 0 2rem rgba(216, 245, 241, .04), 0 0 0 4rem rgba(216, 245, 241, .025);
+      content: "";
+    }
+
+    .header-inner,
+    main {
+      width: min(var(--max-width), calc(100% - 2.5rem));
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: .65rem;
+      margin: 0 0 .6rem;
+      color: #aee8e0;
+      font-family: "DM Sans", Arial, sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: .7rem;
+      height: .7rem;
+      border: 2px solid #aee8e0;
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(174, 232, 224, .18);
+      content: "";
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: "DM Sans", Arial, Helvetica, sans-serif;
+      line-height: 1.2;
+    }
+
+    h1 {
+      max-width: 680px;
+      margin: 0;
+      font-size: clamp(2.3rem, 6vw, 4.5rem);
+      font-weight: 600;
+      letter-spacing: -.045em;
+    }
+
+    .effective-date {
+      margin: 1.25rem 0 0;
+      color: #d8f5f1;
+      font-family: "DM Sans", Arial, sans-serif;
+      font-size: .95rem;
+      font-weight: 500;
+    }
+
+    main {
+      position: relative;
+      margin-top: -2.75rem;
+      margin-bottom: 4rem;
+      padding: clamp(1.5rem, 4vw, 3.5rem);
+      background: var(--paper);
+      border: 1px solid rgba(7, 92, 101, .12);
+      box-shadow: 0 26px 70px rgba(21, 48, 56, .12), 0 3px 10px rgba(21, 48, 56, .04);
+    }
+
+    .intro {
+      margin: 0 0 2.5rem;
+      padding: 1.35rem 1.5rem;
+      background: var(--accent-soft);
+      border: 1px solid rgba(8, 127, 140, .18);
+      border-left: 4px solid var(--accent);
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    section + section {
+      margin-top: 2.75rem;
+      padding-top: 2.5rem;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 1rem;
+      color: var(--accent-dark);
+      font-size: clamp(1.45rem, 3vw, 2rem);
+      font-weight: 600;
+    }
+
+    h3 {
+      margin: 1.6rem 0 .45rem;
+      font-size: 1.12rem;
+      font-weight: 600;
+    }
+
+    p { margin: .75rem 0; }
+
+    ul {
+      margin: .75rem 0;
+      padding-left: 1.35rem;
+    }
+
+    li + li { margin-top: .35rem; }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 1.25rem 0;
+    }
+
+    table {
+      width: 100%;
+      min-width: 620px;
+      border-collapse: collapse;
+      font-size: .95rem;
+    }
+
+    th,
+    td {
+      padding: .85rem .75rem;
+      border: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--accent-dark);
+      background: #eef7f6;
+      font-family: "DM Sans", Arial, Helvetica, sans-serif;
+      font-size: .8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    tbody tr:nth-child(even) { background: #fbfdfd; }
+
+    .contact {
+      padding: 1.4rem;
+      background: #f7faf9;
+      border: 1px solid var(--line);
+    }
+
+    .contact a {
+      display: inline-block;
+      padding-bottom: .15rem;
+      font-family: "DM Sans", Arial, sans-serif;
+      font-weight: 700;
+      text-decoration-thickness: 1px;
+      text-underline-offset: .25rem;
+    }
+
+    footer {
+      padding: 0 1.25rem 2.5rem;
+      color: var(--muted);
+      font-family: "DM Sans", Arial, sans-serif;
+      font-size: .82rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .site-header { padding: 3rem 1.25rem 4.25rem; }
+      main { width: min(var(--max-width), calc(100% - 1.25rem)); }
+    }
+
+    @media print {
+      body, main { background: #fff; }
+      .site-header { padding: 1rem 0; color: #000; background: none; }
+      .eyebrow, .effective-date { color: #000; }
+      .site-header::after, .eyebrow::before { display: none; }
+      main { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+      a { color: #000; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">Ring Ping: Call Reminder</p>
+      <h1>Privacy Policy</h1>
+      <p class="effective-date">Effective date: October 2, 2026</p>
+    </div>
+  </header>
+
+  <main>
+    <p class="intro"><strong>In brief:</strong> Ring Ping is designed as a local-first reminder utility. It does not require an account and is designed not to operate a developer-owned backend, advertising profile, or analytics database.</p>
+
+    <section>
+      <h2>1. Overview</h2>
+      <p>This Privacy Policy explains how <strong>Ring Ping: Call Reminder</strong> ("Ring Ping", "the App", "we", "us", or "our") handles information when you use the App.</p>
+      <p>Ring Ping lets you create a reminder and receive a call-style reminder at the scheduled time. The App does not require an account or login and is designed not to operate a developer-owned backend, advertising profile, or analytics database.</p>
+      <p><strong>Our data-minimisation approach:</strong> Reminder information is intended to remain on your device unless you explicitly choose a system or third-party action that sends information outside the App, such as adding a reminder to a calendar application.</p>
+    </section>
+
+    <section>
+      <h2>2. Information We Handle</h2>
+      <h3>2.1 Reminder information you enter</h3>
+      <p>When you create a reminder, the App may store the information needed to deliver it, such as:</p>
+      <ul>
+        <li>Reminder text or title that you type.</li>
+        <li>The date and time you select.</li>
+        <li>Reminder or call preferences you choose, such as volume or retry behaviour, where those options are available.</li>
+        <li>The local status of a reminder, such as scheduled, completed, missed, or cancelled.</li>
+      </ul>
+      <p>This information is intended to be stored locally on your Android device for the App to perform its reminder functions. We do not intentionally transmit this reminder database to a Ring Ping server.</p>
+
+      <h3>2.2 Device and system state</h3>
+      <p>The App may receive limited system information from Android that is necessary to perform its functions. Examples can include whether notifications are permitted, whether the App is currently active, and the state of a Ring Ping reminder call, such as ringing, answered, declined, or missed.</p>
+      <p>Such information is processed for the App's operation and is not intentionally uploaded by Ring Ping to a developer-owned server.</p>
+
+      <h3>2.3 Phone numbers, contacts, and call history</h3>
+      <p>Ring Ping does not need your contacts, address book, carrier phone number, or ordinary phone call history to create a Ring Ping reminder. The App is designed to use Android's supported calling and telecom mechanisms for its own reminder experience rather than accessing your personal contacts or reading your carrier call log.</p>
+
+      <h3>2.4 Microphone and camera</h3>
+      <p>Ring Ping does not require microphone or camera access for its core reminder experience. It does not record your voice, camera images, or video.</p>
+
+      <h3>2.5 Location</h3>
+      <p>Ring Ping does not require or request precise or approximate location access. The App does not use location to create, schedule, or trigger reminders.</p>
+
+      <h3>2.6 Account information</h3>
+      <p>Ring Ping does not require you to create an account, provide an email address to use the core reminder functionality, or sign in with Google or another identity provider.</p>
+    </section>
+
+    <section>
+      <h2>3. How Ring Ping Uses Information</h2>
+      <p>Information handled by the App is used only to provide the functions you request, including:</p>
+      <ul>
+        <li>Creating, storing, updating, and deleting your reminders.</li>
+        <li>Scheduling the reminder at the selected time.</li>
+        <li>Presenting the Ring Ping call-style reminder.</li>
+        <li>Tracking whether a reminder was answered, declined, missed, completed, or retried.</li>
+        <li>Speaking reminder text using the Android text-to-speech service requested by the App.</li>
+        <li>Preparing an event for a calendar application when you explicitly select a calendar action.</li>
+      </ul>
+      <p>Ring Ping does not use your reminder content to build an advertising profile, sell personal information, or make personalised advertising decisions.</p>
+    </section>
+
+    <section>
+      <h2>4. Local Storage and Data Retention</h2>
+      <h3>4.1 Local storage</h3>
+      <p>Reminder data is designed to remain in the App's private storage on your Android device. The App may use Android's local application storage or database mechanisms to keep scheduled reminders available between launches.</p>
+      <h3>4.2 How long information is kept</h3>
+      <p>Reminder information remains on your device until you delete it, the App removes it as part of its normal functionality, or the App's local data is cleared or the App is uninstalled. The App does not maintain a separate Ring Ping cloud copy of your reminder database.</p>
+      <h3>4.3 Android device backup</h3>
+      <p>Android devices can provide backup and restore features controlled by the Android platform, device manufacturer, or your device settings. If your device or Android configuration backs up App data, that backup is handled by the applicable platform provider under its own policies. Ring Ping does not operate or control that platform backup service.</p>
+    </section>
+
+    <section>
+      <h2>5. Text-to-Speech</h2>
+      <p>Ring Ping can use Android's text-to-speech functionality to speak a reminder aloud after a reminder call is answered.</p>
+      <p>Ring Ping requests speech synthesis from the text-to-speech engine configured on your Android device. The exact processing location depends on the selected speech engine and device configuration. Some engines may process speech locally, while others may use network services.</p>
+      <p>Ring Ping does not control the privacy practices of an external text-to-speech provider. If your configured speech engine sends text to an external service, that processing is governed by the provider's own privacy policy and settings.</p>
+    </section>
+
+    <section>
+      <h2>6. Calendar and Third-Party App Handoffs</h2>
+      <p>Ring Ping may provide an optional "Add to Google Calendar" or equivalent calendar action. This is initiated by you and uses Android's calendar event insertion interface to hand event details to a calendar application installed on your device.</p>
+      <p>Ring Ping is designed not to request calendar read or write permissions for this handoff. Instead, the Android calendar application handles the event creation flow.</p>
+      <p>When you choose this option, information such as the reminder title, date, and time may be passed to the calendar application so that you can review and save the event. Ring Ping does not receive your existing calendar contents through this action.</p>
+      <p>Once information is handed to a third-party calendar application, that application's own privacy policy and data practices apply to its processing.</p>
+    </section>
+
+    <section>
+      <h2>7. Permissions and Why They Are Used</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th scope="col">Permission / capability</th><th scope="col">Purpose in Ring Ping</th><th scope="col">What Ring Ping does not do</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Notifications</td><td>Display reminder-related notifications where required by Android.</td><td>Does not use notifications to collect personal information.</td></tr>
+            <tr><td>Vibration</td><td>Provide haptic feedback for reminder events or call-style presentation.</td><td>Does not collect vibration data.</td></tr>
+            <tr><td>Wake/scheduling capabilities</td><td>Allow scheduled reminders to trigger at the selected time, subject to Android's power-management rules.</td><td>Does not use these capabilities to collect user data.</td></tr>
+            <tr><td>Telecom / app-managed call capabilities</td><td>Present and manage the Ring Ping reminder's call-style experience and determine whether the reminder was answered or missed.</td><td>Does not provide access to your contacts or ordinary carrier call history as part of the reminder feature.</td></tr>
+            <tr><td>Full-screen reminder presentation, where allowed</td><td>Show the time-sensitive reminder experience when Android permits it.</td><td>Does not use full-screen presentation for advertising.</td></tr>
+            <tr><td>Boot/startup capability, where present</td><td>Restore or reschedule relevant local reminder work after an Android device restart.</td><td>Does not transmit your reminder database to Ring Ping servers.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Android may impose additional user controls, restrictions, or special-access requirements for exact alarms, full-screen intents, notifications, and telecom functionality. Feature availability can therefore depend on Android version, device manufacturer, and the permissions or special access granted by the user.</p>
+    </section>
+
+    <section>
+      <h2>8. Information We Do Not Collect Through Ring Ping's Own Services</h2>
+      <p>The current Ring Ping design does not intentionally collect or transmit the following categories to a Ring Ping-operated server:</p>
+      <ul>
+        <li>Your name or profile information.</li>
+        <li>Your email address for the purpose of using the App.</li>
+        <li>Your precise or approximate location.</li>
+        <li>Your contacts or address book.</li>
+        <li>Your carrier call history.</li>
+        <li>Microphone recordings.</li>
+        <li>Camera images or videos.</li>
+        <li>Advertising identifiers for personalised advertising.</li>
+        <li>Analytics profiles tied to your identity.</li>
+        <li>A cloud-hosted copy of your reminder database.</li>
+      </ul>
+      <p>This section describes Ring Ping's own current handling. Third-party Android platform components that you choose to use, such as a calendar provider or text-to-speech engine, may have separate data practices.</p>
+    </section>
+
+    <section>
+      <h2>9. Data Sharing and Third Parties</h2>
+      <p>Ring Ping does not sell your personal information and does not operate a data-broker or advertising business based on reminder content.</p>
+      <p>Limited information may leave the App only when it is necessary to complete an action you explicitly request or when Android itself provides the underlying platform service. The main examples are:</p>
+      <ul>
+        <li><strong>Calendar application:</strong> Event details you choose to add can be handed to the calendar app through Android's calendar insertion flow.</li>
+        <li><strong>Text-to-speech provider:</strong> The configured Android speech engine may process reminder text according to its own implementation and privacy policy.</li>
+        <li><strong>Android platform services:</strong> The operating system may process information as necessary to provide notifications, telecom, alarms, audio, backups, security, and other platform functions.</li>
+      </ul>
+      <p>Ring Ping does not intentionally send your reminder database to these services as a background analytics or advertising feed.</p>
+    </section>
+
+    <section>
+      <h2>10. Security</h2>
+      <p>Ring Ping uses Android's application sandbox and private application storage for local reminder information. The App does not maintain a Ring Ping cloud database containing your reminders.</p>
+      <p>No method of storing information on a device or transmitting information through a mobile operating system can be guaranteed to be completely secure. You are responsible for keeping your Android device protected with an appropriate screen lock, account security, and operating-system updates.</p>
+    </section>
+
+    <section>
+      <h2>11. Advertising, Analytics, and Tracking</h2>
+      <p>Ring Ping is designed without advertising SDKs and without an in-app analytics service operated by the developer. The App does not intentionally create a user profile for advertising or cross-app tracking.</p>
+      <p>If a future version introduces advertising, analytics, crash-reporting, cloud synchronisation, or another third-party SDK that changes what information leaves the device, this Privacy Policy and the applicable Google Play disclosures will be reviewed and updated as appropriate.</p>
+    </section>
+
+    <section>
+      <h2>12. Your Choices and Deletion</h2>
+      <p>Because Ring Ping is designed without a user account and without a Ring Ping cloud database, there is no Ring Ping account that you need to close.</p>
+      <p>You can manage your reminder information directly in the App. You can also clear the App's local storage or uninstall Ring Ping using Android's standard controls. Clearing app data or uninstalling the App can remove locally stored reminders and settings, subject to Android system behaviour and any platform backup or restore process.</p>
+      <p>You can also control Android permissions and special access through your device's system settings, subject to Android's controls and the requirements of the App.</p>
+    </section>
+
+    <section>
+      <h2>13. Children's Privacy</h2>
+      <p>Ring Ping is a general-purpose reminder utility and is not designed to create user accounts or intentionally collect personal information from children.</p>
+      <p>Because the App does not require an account and is designed for local reminder storage, it does not intentionally request a child's name, contact details, location, or other personal profile information for use of the core feature.</p>
+      <p>If you believe that personal information has been provided to us directly in connection with the App, please contact us using the address below so that we can review the request.</p>
+    </section>
+
+    <section>
+      <h2>14. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy when Ring Ping's features, permissions, platform integrations, or legal requirements change.</p>
+      <p>When we make a material change, we will update the effective date at the top of this page. You should review this page periodically to understand the current version of the policy.</p>
+    </section>
+
+    <section>
+      <h2>15. Contact Us</h2>
+      <div class="contact">
+        <p>For privacy questions, requests, or concerns about Ring Ping, contact:</p>
+        <p><a href="mailto:bhavishyasingla2005@gmail.com">bhavishyasingla2005@gmail.com</a></p>
+        <p>Please include "Ring Ping Privacy" in the subject line when possible so your request can be routed appropriately.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>16. Important Accuracy Notice</h2>
+      <p>This Privacy Policy is written for the current Ring Ping: Call Reminder product design described above. The policy must be kept consistent with the actual Android build you publish and with the information you submit in Google Play Console's Data safety and other policy declarations.</p>
+      <p>If a future release adds an account system, advertising, analytics, cloud synchronisation, remote AI processing, location features, contacts access, microphone recording, calendar-read access, or another data-processing feature, this policy must be reviewed and updated before the new practice is represented as part of the App's privacy model.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Ring Ping: Call Reminder. All rights reserved.
+  </footer>
+</body>
+</html>
